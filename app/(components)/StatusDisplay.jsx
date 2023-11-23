@@ -6,4 +6,4 @@ const StatusDisplay = () => {
   )
 }
 
-export default StatusDisplay
+export default StatusDisplay;

@@ -2,6 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base{
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-bold;
+  }
+
+  h1 {
+    @apply-4xl;
+  }
+  h2 {
+    @apply-3xl;
+  }
+  h3 {
+    @apply-2xl;
+  }
+  h4 {
+    @apply-1xl;
+  }
+  p{
+    @apply text-sm text-default-text;
+  }
+}
+
 @layer components{
   .icon {
     @apply text-default-text text-xl;
